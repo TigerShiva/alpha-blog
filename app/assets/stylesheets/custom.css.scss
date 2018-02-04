@@ -4,11 +4,60 @@ $navbar-default-bg: #c9ced6;
 @import "bootstrap";
 
 .jumbotron {
-    background-color: #b6bdc8;
+    background-image: asset-url("cover_page_6.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+.center.jumbotron h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 9.5em;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 12%;
+    padding-bottom: 17px;
 }
 
 .center {
     text-align: center;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    color: #ddd;
+    background-color: #3A749D;
+    border: none;
+    -webkit-box-shadow: -1px 20px 28px -1px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 20px 28px -1px rgba(0,0,0,0.47);
+    box-shadow: -1px 20px 28px -1px rgba(0,0,0,0.47);
+    margin-right: 15px;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 2px solid #b6bdc8;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
 }
 
 #logo {
