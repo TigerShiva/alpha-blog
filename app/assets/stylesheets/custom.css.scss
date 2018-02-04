@@ -1,3 +1,31 @@
+$navbar-default-bg: #c9ced6;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.jumbotron {
+    background-color: #b6bdc8;
+}
+
+.center {
+    text-align: center;
+}
+
+#logo {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.1em;
+    color: #fff;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #6fa8dc;
+    text-decoration: none;
+}
+
+a#logo.navbar-brand {
+    font-weight: 300;
+}
