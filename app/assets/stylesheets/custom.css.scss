@@ -24,6 +24,11 @@ $navbar-default-bg: #c9ced6;
     text-align: center;
 }
 
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
 .btn-xlarge {
     font-size: 1.7em;
     color: #ddd;
