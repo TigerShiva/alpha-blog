@@ -1,10 +1,23 @@
-$navbar-default-bg: #c9ced6;
+$navbar-default-bg: rgb(2, 23, 26);
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 h1 {
     font-family: 'Lato', sans-serif;
+}
+
+.txt {
+    font-family: 'Lato', serif;
+    margin-bottom: 25px;
+}
+
+nav a:hover {
+    color: #6fa8dc;
+}
+
+.navbar-default {
+    border-radius: 0;
 }
 
 .jumbotron {
@@ -28,6 +41,11 @@ h1 {
     text-align: center;
 }
 
+h2.center {
+    margin-bottom: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
 .col-centered {
     float: none;
     margin: 0 auto;
@@ -47,6 +65,7 @@ h1 {
 .article-actions {
     border-top: 1px solid #b6bdc8;
     padding-top: 15px;
+    text-align: center;
 }
 
 .description {
@@ -56,26 +75,35 @@ h1 {
 .article-title {
     font-weight: bold;
     font-size: 1.5em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .article-body {
     border-top: 1px solid #dadada;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lato', serif;
+}
+
+.black {
+    color: #000;
 }
 
 footer {
     margin-top: 45px;
     padding-top: 5px;
     border-top: 2px solid #b6bdc8;
-    color: #777;
-    background-color: #b6bdc8;
+    color: #ddd;
+    background-color: rgb(2, 23, 26);
 }
 
-footer a:hover {
-    color: #222;
+footer a {
+    color: #ddd;
+}
+
+.links a:hover {
+    color: #6fa8dc;
+    text-decoration: none;
 }
 
 footer small {
@@ -92,7 +120,7 @@ footer ul {
 footer ul li {
     float: left;
     margin-right: 15px;
-    color: #fff;
+    color: #ddd;
 }
 
 #logo {
@@ -112,4 +140,18 @@ footer ul li {
 
 a#logo.navbar-brand {
     font-weight: 300;
+    margin-left: 10px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #ddd;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav li a.black {
+    color: #000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #6fa8dc;
 }
