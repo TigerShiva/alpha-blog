@@ -16,16 +16,13 @@ h1 {
     margin-bottom: 25px;
 }
 
-.navbar-default {
+.navbar-custom {
     background-color: rgb(2, 23, 26);
+    border-radius: 0;
 }
 
 nav a:hover {
     color: #6fa8dc;
-}
-
-.navbar-default {
-    border-radius: 0;
 }
 
 .jumbotron {
@@ -94,7 +91,7 @@ h2.center {
 }
 
 .black {
-    color: #000;
+    color: #111;
 }
 
 footer {
@@ -151,15 +148,15 @@ a#logo.navbar-brand {
     margin-left: 10px;
 }
 
-.navbar-default .navbar-nav li a {
+.navbar-custom .navbar-nav li a {
     color: #ddd;
     font-family: 'Lato', sans-serif;
 }
 
-.navbar-default .navbar-nav li a.black {
-    color: #000;
+.navbar-custom .navbar-nav li a.black {
+    color: #111;
 }
 
-.navbar-default .navbar-nav li a:hover {
+.navbar-custom .navbar-nav li a:hover {
     color: #6fa8dc;
 }
