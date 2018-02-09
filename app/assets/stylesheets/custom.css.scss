@@ -3,6 +3,10 @@ $navbar-default-bg: rgb(2, 23, 26);
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+    overflow-x: hidden;
+}
+
 h1 {
     font-family: 'Lato', sans-serif;
 }
