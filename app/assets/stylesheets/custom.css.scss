@@ -174,3 +174,25 @@ a#logo.navbar-brand {
 .navbar-custom .navbar-nav li a:hover {
     color: #6fa8dc;
 }
+
+@media only screen and (max-width: 600px)  {
+    .center.jumbotron h1 {
+        font-size: 4.5em;
+    }
+    .jumbotron {
+        height: 300px;
+    }
+    ul.listing {
+        padding-left: 0;
+    }
+    .btn-sm, .btn-group-sm > .btn {
+        font-size: 25px;
+    }
+}
+
+// iPad view needs search bar to disappear
+/* @media (max-width: 801) {
+    .navbar-form {
+        display: none !important;
+    }
+} */
