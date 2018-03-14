@@ -107,6 +107,20 @@ h2.center {
 .icon-bar {
     background-color: #eee;
 }
+.badge {
+    background-color: #CEF6F5;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.input_checkbox input {
+    width: auto !important;
+}
+
+.buffer {
+    padding-bottom: 50px;
+}
 
 footer {
     margin-top: 45px;
